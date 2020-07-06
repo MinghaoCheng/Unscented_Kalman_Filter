@@ -33,7 +33,7 @@ private:
     float Py;                           // measurement noise for y axis
 
     // params of the unscented transform
-    uint8_t n, m;                       // m = n + 1, there would be m sigma points
+    uint8_t n, m;                       // m = 2 * n_aug + 1, there would be m sigma points
     uint8_t n_aug;
     float lambda;
     VectorXf w;                         // weight of each sigma point
