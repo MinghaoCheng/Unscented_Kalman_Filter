@@ -43,6 +43,3 @@ private:
     // statistics tool function
     static void CalculateMeanCovariance(MatrixXf& Data, VectorXf& mean, MatrixXf& Covariance, VectorXf Weights);
 };
-
-
-// Cheng, Yiping & Liu, Ze. (2011). Optimized selection of sigma points in the unscented Kalman filter. 10.1109/ICECENG.2011.6057978. 
